@@ -21,3 +21,157 @@ public class OrderProcessing {
 		//check product is available or not
 	}
 }
+
+
+
+package OnlineShopping;
+
+public class Payment {
+	void paymentMethod()
+	{
+		//select payment methond
+		//use swith case 1.card 2.COD 3.onlineBanking
+		
+		/*
+		 * switch(choice)
+		 * {
+		 * case 1 : use card
+		 * break;
+		 * case 2 : use COD
+		 * break;
+		 * case 3 : use OnlineBanking
+		 * }
+		 */
+		
+	}
+	
+	void billing()
+	{
+		//generete bill
+	}
+	void rewards()
+	{
+		//if rewards are present then applay
+	}
+
+}
+
+
+
+
+
+package OnlineShopping;
+
+public class ProductCatlog {
+	
+	//Here we are going to provide the ProductList
+	int productId;	//each product have there uniqe id 
+	
+	int selectProduct()
+	{
+		
+		return productId;
+	}
+	
+	void addToCart()
+	{
+		//this function add the selected product to respective user using productId
+		
+	}
+
+}
+
+
+
+
+package OnlineShopping;
+
+public class Seller {
+	int sellerId,sellerPasswd;
+	int ProductId; //we provide the id to Product of seller perticuler seller
+	
+	void getSellerInfo()
+	{
+		//get seller info like name number uid number for verification
+	}
+	
+	void addProduct()
+	{
+		//using seller id seller can add there product 
+		//and each product have diff id 
+	}
+}
+
+
+
+
+
+package OnlineShopping;
+
+public class Shipping {
+	void deleverProduct()
+	{
+		//delever product to the confirm address by user
+	}
+
+}
+
+
+
+package OnlineShopping;
+
+public class Shopping {
+
+	public static void main(String[] args) {
+		//create object of all classes and communicate all and 
+		//developed the online shpping application
+	}
+
+}
+
+
+
+
+package OnlineShopping;
+
+public class User {
+
+	int userId,userPasswd;
+	 
+	void login()
+	{
+		//useing id and passwd we access the website 
+	}
+	
+	void logout()
+	{
+		// using logout function we can logout from account
+	}
+}
+
+
+
+
+package OnlineShopping;
+
+public class userData {
+	/*
+	 * string name 
+	 * int number
+	 * int dob
+	 * char gender
+	 * 
+	 */
+	
+	void gerInformation()
+	{
+		//get all information fo user
+	}
+	void genreteIdPasswd()
+	{
+		//genrete id and passwd for user
+	}
+
+}
+
+
